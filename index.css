@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.childboxes{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+}
+.title h1{
+    font-size: 6vmin;
+}
+.winner h1{
+    font-size: 6vmin;
+    margin-top: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    width: 120px;
+    height: 6vh;
+    margin: 20px 10px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#start{
+    background: red;
+}
+
+
+/* .popup{
+    position: absolute;
+    left: 37%;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.popupbox {
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid red;
+    box-shadow: 2px 4px 7px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Text{
+    text-align: center;
+} */
